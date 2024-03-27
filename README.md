@@ -9,5 +9,5 @@ Install Node.js at https://nodejs.org/en/download by downloading the latest vers
 
 ## MySQL Installation:
 
-To access MySQL database from the application using Node.js, we need a MySQL driver. This can be done with the command:
+Install MySQL at https://dev.mysql.com/downloads/installer/ by selecting version and os and click download, then proceed through the installation process and add workbench application along the way. To access MySQL database from the application using Node.js, we need a MySQL driver. This can be done with the command:
 ``` npm install mysql ```.
