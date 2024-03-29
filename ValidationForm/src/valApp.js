@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const valForm = document.getElementById('val-form');
     const error = document.getElementById('error');
 
-    //
     valForm.addEventListener('submit', (e) => {
         const fname = document.getElementById('fname').value;
         const lname = document.getElementById('lname').value;
