@@ -22,6 +22,8 @@ Practical extensions I used for this project: PHP Intelephense, PHP IntelliSense
 # Instructions
 
 1. First building Docker containers is needed from dockerfiles where the environments, configs, libraries and installations are defined. The following commandline can be used to do this: ```docker-compose up --build```.
-2. If we need to change some of the configurations, the commandline ```docker-compose down``` works fine to delete the containers -> make config changes -> repeat step 1 to create new container. Docker desktop should now contain the containers: ![containers](https://github.com/h591304/FormValid_dockerized/assets/61086707/1eaa1303-4e98-4228-be14-b42306b910eb)
+2. If we need to change some of the configurations, the commandline ```docker-compose down``` works fine to delete the containers -> make config changes -> repeat step 1 to create new container. Docker desktop should now contain the following containers: ![containers](https://github.com/h591304/FormValid_dockerized/assets/61086707/1eaa1303-4e98-4228-be14-b42306b910eb)
+4. Running the application at localhost:8080 should provide you with this page where you can enter your information: ![FormValidation](https://github.com/h591304/FormValid_dockerized/assets/61086707/6a6d0117-16db-4be5-8e4a-95451dbe1688)
+5. When submitting this information, a new entry will show up in mySql database: ![mysqlinfo](https://github.com/h591304/FormValid_dockerized/assets/61086707/41ae385c-1a83-41c9-bc13-b7ceb984703f)
 
-3. Running the application at localhost:8080 
+
